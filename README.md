@@ -31,7 +31,7 @@ Now run the test programs:
 
 ## Notes
 
-### How do I update the dependency version here when fsctl/go-kalshi repo is updated?
+#### How do I update the dependency version here when fsctl/go-kalshi repo is updated?
 
 1.  Check for a newer go-kalshi than what's in `go.mod`:
     `go list -m -u github.com/fsctl/go-kalshi`

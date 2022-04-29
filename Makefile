@@ -9,3 +9,4 @@ all:
 clean:
 	@rm -rf kot
 	@rm -rf list-markets
+
