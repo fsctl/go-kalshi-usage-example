@@ -5,6 +5,7 @@ PROG=$1
 if [[ -z "$PROG" ]]; then
 	echo "Error: missing name of program to run"
 	echo "Usage: ./run.sh [program]"
+    echo "Example: ./run.sh list-markets"
 	exit 1
 fi
 

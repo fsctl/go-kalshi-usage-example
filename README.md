@@ -1,8 +1,8 @@
-# Kalshi Order Tools (kot)
+# go-kalshi Usage Example
 
 **WIP - Experimental**
 
-Kalshi order tools:  cli tools that use [`fsctl/go-kalshi`](https://github.com/fsctl/go-kalshi/) module to do various operations using Kalshi API
+Example cli tool that uses [`fsctl/go-kalshi`](https://github.com/fsctl/go-kalshi/) module to list markets using Kalshi API
 
 ## Build
 
@@ -19,14 +19,10 @@ KALSHI_USERNAME="your kalshi login (email)"
 KALSHI_PASSWORD="your kalshi password"
 ```
 
-Now run the test programs:
+Now run the test program:
 
 ```
 ./run.sh list-markets
-```
-
-```
-./run.sh kot
 ```
 
 ## Notes

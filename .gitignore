@@ -1,6 +1,5 @@
 # Contains private information
-.env
+/.env
 
 # Binaries
-/kot
 /list-markets
