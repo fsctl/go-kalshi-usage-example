@@ -2,7 +2,7 @@
 
 **WIP - Experimental**
 
-Kalshi order tools:  cli tools that use `fsctl/go-kalshi` module to do various operations using Kalshi API
+Kalshi order tools:  cli tools that use [`fsctl/go-kalshi`](https://github.com/fsctl/go-kalshi/) module to do various operations using Kalshi API
 
 ## Build
 
