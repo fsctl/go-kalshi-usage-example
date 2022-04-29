@@ -2,7 +2,7 @@ module github.com/fsctl/kot
 
 go 1.18
 
-require github.com/fsctl/go-kalshi v0.0.0-20220428223602-07b90d5f45c7
+require github.com/fsctl/go-kalshi v0.0.0-20220429005608-023b34428678
 
 require (
 	github.com/antihax/optional v1.0.0 // indirect
