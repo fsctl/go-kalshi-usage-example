@@ -2,7 +2,7 @@
 
 ![build workflow](https://github.com/fsctl/go-kalshi-usage-example/actions/workflows/makefile.yml/badge.svg)
 
-This repo is a simple example of how you would use the [`fsctl/go-kalshi`](https://github.com/fsctl/go-kalshi/) module in a CLI tool.
+This repo is a simple example of how you would use the [`fsctl/go-kalshi`](https://github.com/fsctl/go-kalshi/) module your own tool.
 
 ## Build
 
@@ -15,7 +15,7 @@ make
 Create a `.env` file modeled after `.env.example` in the repo root.  Then run the program:
 
 ```
-./run.sh list-markets
+./list-markets
 ```
 
 ## Notes
