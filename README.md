@@ -1,6 +1,6 @@
 # go-kalshi Usage Example
 
-**WIP - Experimental**
+![build workflow](https://github.com/fsctl/go-kalshi-usage-example/actions/workflows/makefile.yml/badge.svg)
 
 Example cli tool that uses [`fsctl/go-kalshi`](https://github.com/fsctl/go-kalshi/) module to list markets using Kalshi API
 
