@@ -2,7 +2,7 @@
 
 ![build workflow](https://github.com/fsctl/go-kalshi-usage-example/actions/workflows/makefile.yml/badge.svg)
 
-Example cli tool that uses [`fsctl/go-kalshi`](https://github.com/fsctl/go-kalshi/) module to list markets using Kalshi API
+This repo is a simple example of how you would use the [`fsctl/go-kalshi`](https://github.com/fsctl/go-kalshi/) module in a CLI tool.
 
 ## Build
 
@@ -12,14 +12,7 @@ make
 
 ## Run
 
-Create a `.env` file like this in the repo root:
-
-```
-KALSHI_USERNAME="your kalshi login (email)"
-KALSHI_PASSWORD="your kalshi password"
-```
-
-Now run the test program:
+Create a `.env` file modeled after `.env.example` in the repo root.  Then run the program:
 
 ```
 ./run.sh list-markets
@@ -29,6 +22,8 @@ Now run the test program:
 
 #### How do I update the dependency version here when fsctl/go-kalshi repo is updated?
 
-Assuming a newer one exists, `go get -u` it to _update the go.mod file_ and fetch it:
-    `go get -u github.com/fsctl/go-kalshi@main`
+Assuming a newer one exists, use `go get -u` to fetch `go-kalshi` and update the go.mod file:  `go get -u github.com/fsctl/go-kalshi@main`
 
+#### Repo forks
+
+If you fork this repo, you will need to create two Github Repository Secrets in your fork's repo to get CI to work. They must be called `KALSHI_USERNAME` and `KALSHI_PASSWORD` and contain Kalshi account credentials.  Used by `.github/workflows/makefile.yml`.
