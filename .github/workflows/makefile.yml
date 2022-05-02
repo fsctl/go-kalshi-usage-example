@@ -39,4 +39,4 @@ jobs:
     
     # Run the program
     - name: Run program
-      run: ./run.sh list-markets
+      run: ./list-markets
