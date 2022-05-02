@@ -1,4 +1,4 @@
-name: Makefile CI
+name: go-kalshi-usage-example CI
 
 on:
   push:
