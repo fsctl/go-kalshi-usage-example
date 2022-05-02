@@ -1,4 +1,4 @@
-module github.com/fsctl/kot
+module github.com/fsctl/go-kalshi-usage-example
 
 go 1.18
 
