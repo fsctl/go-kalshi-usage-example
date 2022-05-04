@@ -4,8 +4,8 @@ import (
 	"context"
 	"log"
 
-	"github.com/fsctl/go-kalshi/pkg/kalshi"
-	"github.com/fsctl/go-kalshi/pkg/kalshi/helpers"
+	"github.com/fsctl/go-kalshi"
+	"github.com/fsctl/go-kalshi/helpers"
 )
 
 func main() {
