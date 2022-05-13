@@ -2,7 +2,7 @@ module github.com/fsctl/go-kalshi-usage-example
 
 go 1.18
 
-require github.com/fsctl/go-kalshi v0.0.0-20220504151845-b7951806bae5
+require github.com/fsctl/go-kalshi v0.0.0-20220513151457-958ac85fe44c
 
 require (
 	github.com/antihax/optional v1.0.0 // indirect
